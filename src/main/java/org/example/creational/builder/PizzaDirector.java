@@ -4,7 +4,7 @@ public class PizzaDirector {
     public static Pizza buildMargherita(PizzaBuilder builder) {
         return builder.setSize("Medium")
                 .setCrust("Thin Crust")
-                .addTopping("Mozzarella")
+                //.addCarne(new Carne('cerdito', 230))
                 .addTopping("Basil")
                 .addTopping("Tomato Sauce")
                 .build();
@@ -13,7 +13,7 @@ public class PizzaDirector {
     public static Pizza buildMeatLovers(PizzaBuilder builder) {
         return builder.setSize("Large")
                 .setCrust("Stuffed Crust")
-                .addTopping("Pepperoni")
+                //.addMasa(new Masa('no se', 500))
                 .addTopping("Sausage")
                 .addTopping("Bacon")
                 .addTopping("Mozzarella")

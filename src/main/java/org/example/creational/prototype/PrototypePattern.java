@@ -10,6 +10,7 @@ public class PrototypePattern {
         manager.addPrototype("resume", resumePrototype);
         manager.addPrototype("report", reportPrototype);
 
+        
         ResumeDocument newResume = (ResumeDocument) manager.getPrototype("resume");
         if (newResume != null) {
             newResume.setContent("Resume");
