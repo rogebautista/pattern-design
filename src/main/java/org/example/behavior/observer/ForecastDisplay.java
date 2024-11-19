@@ -1,4 +1,4 @@
-package org.example.behavior;
+package org.example.behavior.observer;
 
 class ForecastDisplay implements Observer {
     private float temperature;

@@ -1,4 +1,4 @@
-package org.example.behavior;
+package org.example.behavior.observer;
 
 interface Subject {
     void registerObserver(Observer observer);
